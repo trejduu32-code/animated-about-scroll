@@ -1,8 +1,6 @@
 import { Link2 } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="py-16 border-t border-border">
+  return <footer className="py-16 border-t border-border">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Logo */}
@@ -20,9 +18,7 @@ const Footer = () => {
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
               Features
             </a>
-            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-              Pricing
-            </a>
+            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pri</a>
             <a href="https://me.xo.je" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
               Get Started
             </a>
@@ -35,8 +31,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
